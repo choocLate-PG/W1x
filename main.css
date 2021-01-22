@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(48, 48, 48);
+}
+nav{
+    border-bottom: solid 3px rgb(81, 103, 231);
+    border-top: solid 3px rgb(81, 103, 231);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #3a499e;
+}
+
+.logo{
+    color: rgb(183, 206, 255);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.m1 h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    text-align: center;
+}
+.main{
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(115, 135, 226);
+    margin: 30vh;
+}
+.main h2{
+    font-size: 40px;
+}
+
+.rights{
+    background-color: rgb(46, 43, 43);
+    padding: 15px;
+    border-top: 3px solid rgb(87, 114, 202);
+    border-bottom: 3px solid rgb(111, 136, 219);
+    border-radius: 25px;
+
+}
+.rights p{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto Condensed', sans-serif;
+   
+}
+.rg{
+    padding: 100px;
+    margin: 100px;
+}
